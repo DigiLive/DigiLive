@@ -26,8 +26,8 @@ In no particular order, my favorites are...
 
 ## Metrics
 
-<h2 style ="display: flex;align-items: center;margin: 8px 5px 2px;white-space: nowrap;font-size: 16px;font-weight: 400;padding:0;color: #0366d6">
-<img alt="GitHub Logo" height="16" src="github.svg" width="16" style="margin: 0 8px">Github
-</h2>
+<span style ="display: flex;align-items: center;margin: 8px 5px 2px;white-space: nowrap;font-size: 16px;font-weight: 400;padding:0;color: #0366d6">
+    <img alt="GitHub Logo" height="16" src="github.svg" width="16" style="margin: 0 8px">Github
+</span>
 
 ![Metrics](github-metrics.svg)
