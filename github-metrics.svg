@@ -325,7 +325,7 @@ Committed to create lean and clean code.</div>
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 507k out of 58.8m repositories</span>
+                                    <span class="gh">ranked 508k out of 59.5m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">23</div>
                                     </div>
@@ -401,7 +401,7 @@ Committed to create lean and clean code.</div>
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 216k out of 58.8m repositories</span>
+                                    <span class="gh">ranked 216k out of 59.5m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">170</div>
                                     </div>
@@ -822,7 +822,7 @@ Committed to create lean and clean code.</div>
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1.84mb of code in 279 edited files across 62 commits</small>
+                <small>estimation from 1.84mb of code in 280 edited files across 63 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
