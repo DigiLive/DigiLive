@@ -69,4 +69,6 @@ jobs:
           plugin_stargazers_days: 0
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
+          plugin_sponsorships: yes
+          plugin_sponsorships_sections: sponsorships
           repositories_affiliations: owner, collaborator, organization_member
