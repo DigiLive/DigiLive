@@ -31,7 +31,7 @@ jobs:
           base_hireable: yes
           base_indepth: yes
           config_octicon: yes
-          config_order: base.header, introduction, achievements, base.activity, base.community, languages, base.repositories, base.metadata
+          config_order: base.header, introduction, achievements, sponsorships, base.activity, base.community, languages, base.repositories, base.metadata
           config_timezone: Europe/Amsterdam
           plugin_achievements: yes
           plugin_achievements_display: compact
@@ -70,5 +70,5 @@ jobs:
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
           plugin_sponsorships: yes
-          plugin_sponsorships_sections: sponsorships
+          plugin_sponsorships_sections: list, about
           repositories_affiliations: owner, collaborator, organization_member
