@@ -16,6 +16,8 @@ jobs:
         with:
           # Your GitHub token
           # The following scopes are required:
+          #  - read:user
+          #  - read:org
           #  - public_access (default scope)
           # The following additional scopes may be required:
           #  - read:org      (for organization related metrics)
@@ -31,7 +33,7 @@ jobs:
           base_hireable: yes
           base_indepth: yes
           config_octicon: yes
-          config_order: base.header, introduction, achievements, sponsorships, base.activity, base.community, languages, base.repositories, base.metadata
+          config_order: base.header, introduction, achievements, sponsors, base.activity, base.community, languages, base.repositories, base.metadata
           config_timezone: Europe/Amsterdam
           plugin_achievements: yes
           plugin_achievements_display: compact
@@ -57,6 +59,9 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
+          plugin_sponsors: yes
+          plugin_sponsors_past: yes
+          plugin_sponsors_sections: list, about
           plugin_stackoverflow: yes
           plugin_stackoverflow_limit: 2
           plugin_stackoverflow_lines: 4
@@ -69,6 +74,4 @@ jobs:
           plugin_stargazers_days: 0
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
-          plugin_sponsorships: yes
-          plugin_sponsorships_sections: list, about
           repositories_affiliations: owner, collaborator, organization_member
