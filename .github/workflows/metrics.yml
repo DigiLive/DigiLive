@@ -9,11 +9,12 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
     steps:
       - name: Generate Profile Metrics
-        uses: gh-metrics/metrics@master
+        uses: gh-digilive/metrics@master
         with:
           # Your GitHub token
           # The following scopes are required:
