@@ -29,5 +29,3 @@ In no particular order, my favorites are...
 &nbsp;&nbsp;&nbsp;<img alt="GitHub Logo" height="16" src="github.svg" width="16">&nbsp;&nbsp;Github
 
 ![Metrics](github-metrics.svg)
-
-![Achievements](github-metrics-achievements.svg)
